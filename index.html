@@ -1,0 +1,977 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Tonopah NV AI Outreach System - Expand your client pipeline with intelligent AI-powered outreach. Automate local business growth with our cutting-edge AI engine.">
+    <meta name="keywords" content="AI Outreach, Local Business Growth, Tonopah Nevada, Client Pipeline, Business Automation">
+    <meta name="author" content="Tonopah AI Outreach">
+    <meta name="theme-color" content="#5B4BFF">
+    <title>Tonopah NV AI Outreach System For Local Business Growth</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <style>
+        * {
+            font-family: 'Inter', sans-serif;
+        }
+        
+        :root {
+            --primary: #5B4BFF;
+            --secondary: #EEF0FF;
+            --accent: #00E5A8;
+        }
+        
+        .btn-primary {
+            background-color: #5B4BFF;
+            color: white;
+            border-radius: 9999px;
+            padding: 0.75rem 2rem;
+            font-weight: 600;
+            transition: all 300ms ease-out;
+            display: inline-block;
+            cursor: pointer;
+            border: none;
+        }
+        
+        .btn-primary:hover {
+            transform: scale(1.05);
+            box-shadow: 0 20px 25px -5px rgba(91, 75, 255, 0.3);
+            filter: brightness(1.1);
+        }
+        
+        .btn-primary:active {
+            transform: scale(0.98);
+        }
+        
+        .card-hover {
+            transition: all 300ms ease-out;
+        }
+        
+        .card-hover:hover {
+            transform: scale(1.02);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+        }
+        
+        .gradient-text {
+            background: linear-gradient(135deg, #5B4BFF 0%, #00E5A8 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .faq-answer {
+            max-height: 500px;
+            overflow: hidden;
+            transition: all 300ms ease-out;
+        }
+        
+        .faq-answer.hidden {
+            max-height: 0;
+            opacity: 0;
+        }
+        
+        .faq-icon {
+            transition: transform 300ms ease-out;
+        }
+        
+        .smooth-scroll {
+            scroll-behavior: smooth;
+        }
+        
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body class="bg-gray-900 text-white">
+    <!-- Header & Navigation -->
+    <header class="sticky top-0 z-50 bg-gray-900 border-b border-gray-800">
+        <nav class="max-w-7xl mx-auto px-8 md:px-16 py-6 flex items-center justify-between">
+            <!-- Logo -->
+            <div class="flex items-center space-x-2">
+                <div class="w-10 h-10 rounded-lg bg-gradient-to-br from-[#5B4BFF] to-[#00E5A8] flex items-center justify-center">
+                    <i class="fas fa-rocket text-white text-lg"></i>
+                </div>
+                <span class="text-xl font-bold text-white">Tonopah AI</span>
+            </div>
+            
+            <!-- Desktop Menu -->
+            <div class="hidden md:flex items-center space-x-12">
+                <a href="#features" class="text-gray-300 hover:text-white transition-colors duration-300 font-medium">Features</a>
+                <a href="#benefits" class="text-gray-300 hover:text-white transition-colors duration-300 font-medium">Benefits</a>
+                <a href="#testimonials" class="text-gray-300 hover:text-white transition-colors duration-300 font-medium">Testimonials</a>
+                <a href="#faq" class="text-gray-300 hover:text-white transition-colors duration-300 font-medium">FAQ</a>
+                <a href="https://dandowneyseo.com" class="btn-primary text-sm">Get Started</a>
+            </div>
+            
+            <!-- Mobile Menu Button -->
+            <button class="mobile-menu-button md:hidden flex items-center justify-center w-10 h-10 rounded-lg hover:bg-gray-800 transition-colors duration-300">
+                <i class="fas fa-bars text-white text-xl"></i>
+            </button>
+        </nav>
+        
+        <!-- Mobile Menu -->
+        <div class="mobile-menu hidden md:hidden bg-gray-800 border-t border-gray-700">
+            <div class="px-8 py-6 space-y-4 flex flex-col">
+                <a href="#features" class="text-gray-300 hover:text-white transition-colors duration-300 font-medium py-2">Features</a>
+                <a href="#benefits" class="text-gray-300 hover:text-white transition-colors duration-300 font-medium py-2">Benefits</a>
+                <a href="#testimonials" class="text-gray-300 hover:text-white transition-colors duration-300 font-medium py-2">Testimonials</a>
+                <a href="#faq" class="text-gray-300 hover:text-white transition-colors duration-300 font-medium py-2">FAQ</a>
+                <a href="https://dandowneyseo.com" class="btn-primary text-sm text-center">Get Started</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative py-32 md:py-40 px-8 md:px-16 overflow-hidden">
+        <!-- Background Elements -->
+        <div class="absolute top-0 right-0 w-96 h-96 bg-[#5B4BFF] rounded-full mix-blend-multiply filter blur-3xl opacity-10 animate-pulse"></div>
+        <div class="absolute bottom-0 left-0 w-96 h-96 bg-[#00E5A8] rounded-full mix-blend-multiply filter blur-3xl opacity-10 animate-pulse"></div>
+        
+        <div class="relative max-w-7xl mx-auto">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 md:gap-16 items-center">
+                <!-- Left Content -->
+                <div class="space-y-8">
+                    <h1 class="text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight leading-tight">
+                        <span class="text-white">Tonopah NV</span>
+                        <span class="block gradient-text">AI Outreach System</span>
+                        <span class="text-white">For Local Business Growth</span>
+                    </h1>
+                    
+                    <p class="text-lg md:text-xl text-gray-300 leading-relaxed max-w-2xl font-medium">
+                        Expand Tonopah's client pipeline with intelligent AI-powered outreach. Automate your business growth and reach more qualified leads in your local market with our cutting-edge AI engine.
+                    </p>
+                    
+                    <div class="flex flex-col sm:flex-row gap-4 pt-4">
+                        <a href="https://dandowneyseo.com" class="btn-primary text-base">
+                            <i class="fas fa-arrow-right mr-2"></i>Start Your Growth Journey
+                        </a>
+                        <button class="px-8 py-3 rounded-full border-2 border-gray-600 text-white font-semibold hover:border-[#5B4BFF] hover:bg-gray-800 transition-all duration-300">
+                            <i class="fas fa-play mr-2"></i>Watch Demo
+                        </button>
+                    </div>
+                    
+                    <!-- Stats -->
+                    <div class="grid grid-cols-3 gap-8 pt-8 border-t border-gray-800">
+                        <div>
+                            <div class="text-3xl font-bold text-[#00E5A8]">500+</div>
+                            <p class="text-gray-400 text-sm font-medium">Local Businesses</p>
+                        </div>
+                        <div>
+                            <div class="text-3xl font-bold text-[#5B4BFF]">10K+</div>
+                            <p class="text-gray-400 text-sm font-medium">Leads Generated</p>
+                        </div>
+                        <div>
+                            <div class="text-3xl font-bold text-[#00E5A8]">95%</div>
+                            <p class="text-gray-400 text-sm font-medium">Success Rate</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Right Visual -->
+                <div class="hidden lg:block relative">
+                    <div class="relative w-full aspect-square rounded-2xl overflow-hidden bg-gradient-to-br from-gray-800 to-gray-900 border border-gray-700">
+                        <div class="absolute inset-0 flex items-center justify-center">
+                            <div class="text-center space-y-8">
+                                <div class="inline-block p-6 rounded-2xl bg-gray-800 border border-gray-700">
+                                    <i class="fas fa-brain text-4xl text-[#5B4BFF]"></i>
+                                </div>
+                                <div class="space-y-2">
+                                    <p class="text-gray-400 text-sm font-medium">Powered by</p>
+                                    <p class="text-2xl font-bold text-white">Claude AI</p>
+                                    <p class="text-gray-500 text-xs">By Anthropic</p>
+                                </div>
+                                <div class="pt-8 space-y-3">
+                                    <div class="flex items-center space-x-3 text-sm">
+                                        <svg class="w-5 h-5 text-[#00E5A8]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                        </svg>
+                                        <span>Intelligent Outreach</span>
+                                    </div>
+                                    <div class="flex items-center space-x-3 text-sm">
+                                        <svg class="w-5 h-5 text-[#00E5A8]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                        </svg>
+                                        <span>Automated Growth</span>
+                                    </div>
+                                    <div class="flex items-center space-x-3 text-sm">
+                                        <svg class="w-5 h-5 text-[#00E5A8]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                        </svg>
+                                        <span>Local Market Focus</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="absolute top-0 right-0 w-40 h-40 bg-[#5B4BFF] rounded-full mix-blend-multiply filter blur-3xl opacity-20"></div>
+                        <div class="absolute bottom-0 left-0 w-40 h-40 bg-[#00E5A8] rounded-full mix-blend-multiply filter blur-3xl opacity-20"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="py-20 md:py-32 px-8 md:px-16 bg-gray-800 bg-opacity-50">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center space-y-4 mb-16 md:mb-20">
+                <h2 class="text-4xl md:text-5xl font-bold tracking-tight">AI Outreach Engine For Local Client Growth</h2>
+                <p class="text-lg text-gray-300 max-w-3xl mx-auto font-medium">
+                    Our intelligent outreach system combines advanced AI technology with local market expertise to help Tonopah businesses expand their client pipeline and achieve sustainable growth.
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Feature 1 -->
+                <div class="card-hover p-8 rounded-2xl bg-gray-800 border border-gray-700 space-y-4">
+                    <div class="inline-flex p-4 rounded-xl bg-gradient-to-br from-[#5B4BFF] to-[#00E5A8] bg-opacity-20">
+                        <svg class="w-6 h-6 text-[#5B4BFF]" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-white">Intelligent Outreach Automation</h3>
+                    <p class="text-gray-400 leading-relaxed">
+                        Our AI engine automatically identifies and reaches out to qualified leads in your local Tonopah market. The system learns from each interaction to continuously improve targeting and messaging for better results.
+                    </p>
+                    <ul class="space-y-2 pt-4">
+                        <li class="flex items-center space-x-2 text-sm text-gray-300">
+                            <svg class="w-4 h-4 text-[#00E5A8]" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                            </svg>
+                            <span>24/7 automated outreach</span>
+                        </li>
+                        <li class="flex items-center space-x-2 text-sm text-gray-300">
+                            <svg class="w-4 h-4 text-[#00E5A8]" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                            </svg>
+                            <span>AI-powered personalization</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Feature 2 -->
+                <div class="card-hover p-8 rounded-2xl bg-gray-800 border border-gray-700 space-y-4">
+                    <div class="inline-flex p-4 rounded-xl bg-gradient-to-br from-[#5B4BFF] to-[#00E5A8] bg-opacity-20">
+                        <svg class="w-6 h-6 text-[#00E5A8]" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-white">Real-Time Analytics & Insights</h3>
+                    <p class="text-gray-400 leading-relaxed">
+                        Track every aspect of your outreach campaign with comprehensive analytics. Monitor engagement rates, conversion metrics, and ROI in real-time to make data-driven decisions for your business growth strategy.
+                    </p>
+                    <ul class="space-y-2 pt-4">
+                        <li class="flex items-center space-x-2 text-sm text-gray-300">
+                            <svg class="w-4 h-4 text-[#00E5A8]" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                            </svg>
+                            <span>Live performance dashboards</span>
+                        </li>
+                        <li class="flex items-center space-x-2 text-sm text-gray-300">
+                            <svg class="w-4 h-4 text-[#00E5A8]" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                            </svg>
+                            <span>Detailed conversion tracking</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Feature 3 -->
+                <div class="card-hover p-8 rounded-2xl bg-gray-800 border border-gray-700 space-y-4">
+                    <div class="inline-flex p-4 rounded-xl bg-gradient-to-br from-[#5B4BFF] to-[#00E5A8] bg-opacity-20">
+                        <svg class="w-6 h-6 text-[#5B4BFF]" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-white">Customizable Campaign Strategy</h3>
+                    <p class="text-gray-400 leading-relaxed">
+                        Tailor every aspect of your outreach to match your business goals. Choose target demographics, messaging tone, frequency, and channels to create a personalized growth strategy that resonates with your ideal Tonopah clients.
+                    </p>
+                    <ul class="space-y-2 pt-4">
+                        <li class="flex items-center space-x-2 text-sm text-gray-300">
+                            <svg class="w-4 h-4 text-[#00E5A8]" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                            </svg>
+                            <span>Flexible targeting options</span>
+                        </li>
+                        <li class="flex items-center space-x-2 text-sm text-gray-300">
+                            <svg class="w-4 h-4 text-[#00E5A8]" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                            </svg>
+                            <span>Multi-channel campaigns</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Feature 4 -->
+                <div class="card-hover p-8 rounded-2xl bg-gray-800 border border-gray-700 space-y-4">
+                    <div class="inline-flex p-4 rounded-xl bg-gradient-to-br from-[#5B4BFF] to-[#00E5A8] bg-opacity-20">
+                        <svg class="w-6 h-6 text-[#00E5A8]" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-white">Lead Quality Assurance</h3>
+                    <p class="text-gray-400 leading-relaxed">
+                        Every lead is vetted and qualified before reaching your team. Our AI system filters out low-quality prospects and focuses on high-intent leads most likely to convert, saving time and improving your sales efficiency.
+                    </p>
+                    <ul class="space-y-2 pt-4">
+                        <li class="flex items-center space-x-2 text-sm text-gray-300">
+                            <svg class="w-4 h-4 text-[#00E5A8]" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                            </svg>
+                            <span>Advanced lead scoring</span>
+                        </li>
+                        <li class="flex items-center space-x-2 text-sm text-gray-300">
+                            <svg class="w-4 h-4 text-[#00E5A8]" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                            </svg>
+                            <span>Automated qualification</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Feature 5 -->
+                <div class="card-hover p-8 rounded-2xl bg-gray-800 border border-gray-700 space-y-4">
+                    <div class="inline-flex p-4 rounded-xl bg-gradient-to-br from-[#5B4BFF] to-[#00E5A8] bg-opacity-20">
+                        <svg class="w-6 h-6 text-[#5B4BFF]" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-white">Transparent Pricing & ROI</h3>
+                    <p class="text-gray-400 leading-relaxed">
+                        No hidden fees or surprise charges. Our straightforward pricing model lets you understand your investment and see clear ROI metrics. Only pay for the leads and results you actually get from your outreach campaigns.
+                    </p>
+                    <ul class="space-y-2 pt-4">
+                        <li class="flex items-center space-x-2 text-sm text-gray-300">
+                            <svg class="w-4 h-4 text-[#00E5A8]" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                            </svg>
+                            <span>Pay-per-lead model</span>
+                        </li>
+                        <li class="flex items-center space-x-2 text-sm text-gray-300">
+                            <svg class="w-4 h-4 text-[#00E5A8]" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                            </svg>
+                            <span>Detailed ROI tracking</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Feature 6 -->
+                <div class="card-hover p-8 rounded-2xl bg-gray-800 border border-gray-700 space-y-4">
+                    <div class="inline-flex p-4 rounded-xl bg-gradient-to-br from-[#5B4BFF] to-[#00E5A8] bg-opacity-20">
+                        <svg class="w-6 h-6 text-[#00E5A8]" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-white">Continuous Optimization</h3>
+                    <p class="text-gray-400 leading-relaxed">
+                        Our AI system continuously learns and adapts your campaigns for better performance. Machine learning algorithms analyze results and automatically refine targeting, messaging, and timing to maximize your business growth over time.
+                    </p>
+                    <ul class="space-y-2 pt-4">
+                        <li class="flex items-center space-x-2 text-sm text-gray-300">
+                            <svg class="w-4 h-4 text-[#00E5A8]" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                            </svg>
+                            <span>Automatic A/B testing</span>
+                        </li>
+                        <li class="flex items-center space-x-2 text-sm text-gray-300">
+                            <svg class="w-4 h-4 text-[#00E5A8]" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                            </svg>
+                            <span>ML-powered improvements</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section id="benefits" class="py-20 md:py-32 px-8 md:px-16">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center space-y-4 mb-16 md:mb-20">
+                <h2 class="text-4xl md:text-5xl font-bold tracking-tight">AI Automates Tonopah Business Growth</h2>
+                <p class="text-lg text-gray-300 max-w-3xl mx-auto font-medium">
+                    Experience the transformative power of AI-driven outreach that works tirelessly to expand your client base and accelerate your business success.
+                </p>
+            </div>
+
+            <div class="space-y-12 md:space-y-16">
+                <!-- Benefit 1 -->
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-16 items-center">
+                    <div class="space-y-6 order-2 md:order-1">
+                        <h3 class="text-3xl md:text-4xl font-bold tracking-tight">Save Countless Hours on Outreach</h3>
+                        <p class="text-lg text-gray-300 leading-relaxed font-medium">
+                            Eliminate manual outreach tasks that consume your team's time. Our AI system handles prospect research, message personalization, and follow-ups automatically, freeing your team to focus on closing deals and building relationships.
+                        </p>
+                        <ul class="space-y-4">
+                            <li class="flex items-start space-x-4">
+                                <svg class="w-6 h-6 text-[#00E5A8] flex-shrink-0 mt-1" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                                </svg>
+                                <span class="text-gray-300">Automate 80% of your outreach workflow</span>
+                            </li>
+                            <li class="flex items-start space-x-4">
+                                <svg class="w-6 h-6 text-[#00E5A8] flex-shrink-0 mt-1" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                                </svg>
+                                <span class="text-gray-300">Reduce manual data entry and research time</span>
+                            </li>
+                            <li class="flex items-start space-x-4">
+                                <svg class="w-6 h-6 text-[#00E5A8] flex-shrink-0 mt-1" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                                </svg>
+                                <span class="text-gray-300">Enable your team to focus on high-value activities</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="order-1 md:order-2">
+                        <div class="relative rounded-2xl overflow-hidden bg-gradient-to-br from-gray-800 to-gray-900 p-8 border border-gray-700 h-96 flex items-center justify-center">
+                            <div class="text-center space-y-4">
+                                <div class="inline-block p-4 rounded-xl bg-[#5B4BFF] bg-opacity-20">
+                                    <svg class="w-12 h-12 text-[#5B4BFF]" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+                                    </svg>
+                                </div>
+                                <p class="text-2xl font-bold text-white">80% Time Saved</p>
+                                <p class="text-gray-400">On outreach automation</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Benefit 2 -->
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-16 items-center">
+                    <div class="relative rounded-2xl overflow-hidden bg-gradient-to-br from-gray-800 to-gray-900 p-8 border border-gray-700 h-96 flex items-center justify-center">
+                        <div class="text-center space-y-4">
+                            <div class="inline-block p-4 rounded-xl bg-[#00E5A8] bg-opacity-20">
+                                <svg class="w-12 h-12 text-[#00E5A8]" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path>
+                                </svg>
+                            </div>
+                            <p class="text-2xl font-bold text-white">3x More Leads</p>
+                            <p class="text-gray-400">With consistent outreach</p>
+                        </div>
+                    </div>
+                    <div class="space-y-6">
+                        <h3 class="text-3xl md:text-4xl font-bold tracking-tight">Generate 3x More Qualified Leads</h3>
+                        <p class="text-lg text-gray-300 leading-relaxed font-medium">
+                            Reach more prospects consistently without burning out your team. Our AI system reaches out to hundreds of prospects daily with personalized messages, dramatically increasing your pipeline and opportunities for conversion.
+                        </p>
+                        <ul class="space-y-4">
+                            <li class="flex items-start space-x-4">
+                                <svg class="w-6 h-6 text-[#00E5A8] flex-shrink-0 mt-1" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                                </svg>
+                                <span class="text-gray-300">Exponentially expand your prospect reach</span>
+                            </li>
+                            <li class="flex items-start space-x-4">
+                                <svg class="w-6 h-6 text-[#00E5A8] flex-shrink-0 mt-1" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                                </svg>
+                                <span class="text-gray-300">Maintain consistent outreach cadence</span>
+                            </li>
+                            <li class="flex items-start space-x-4">
+                                <svg class="w-6 h-6 text-[#00E5A8] flex-shrink-0 mt-1" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                                </svg>
+                                <span class="text-gray-300">Fill your pipeline with pre-qualified prospects</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Benefit 3 -->
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-16 items-center">
+                    <div class="space-y-6 order-2 md:order-1">
+                        <h3 class="text-3xl md:text-4xl font-bold tracking-tight">Improve Conversion Rates Significantly</h3>
+                        <p class="text-lg text-gray-300 leading-relaxed font-medium">
+                            Our AI personalizes every message based on prospect behavior and preferences, resulting in higher engagement and conversion rates. Advanced targeting ensures you're reaching the right people with the right message at the right time.
+                        </p>
+                        <ul class="space-y-4">
+                            <li class="flex items-start space-x-4">
+                                <svg class="w-6 h-6 text-[#00E5A8] flex-shrink-0 mt-1" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                                </svg>
+                                <span class="text-gray-300">AI-powered personalization increases engagement</span>
+                            </li>
+                            <li class="flex items-start space-x-4">
+                                <svg class="w-6 h-6 text-[#00E5A8] flex-shrink-0 mt-1" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                                </svg>
+                                <span class="text-gray-300">Precision targeting reduces wasted outreach</span>
+                            </li>
+                            <li class="flex items-start space-x-4">
+                                <svg class="w-6 h-6 text-[#00E5A8] flex-shrink-0 mt-1" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                                </svg>
+                                <span class="text-gray-300">Higher close rates with qualified prospects</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="order-1 md:order-2">
+                        <div class="relative rounded-2xl overflow-hidden bg-gradient-to-br from-gray-800 to-gray-900 p-8 border border-gray-700 h-96 flex items-center justify-center">
+                            <div class="text-center space-y-4">
+                                <div class="inline-block p-4 rounded-xl bg-[#00E5A8] bg-opacity-20">
+                                    <svg class="w-12 h-12 text-[#00E5A8]" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                    </svg>
+                                </div>
+                                <p class="text-2xl font-bold text-white">45% Higher</p>
+                                <p class="text-gray-400">Conversion rate on average</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Benefit 4 -->
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-16 items-center">
+                    <div class="relative rounded-2xl overflow-hidden bg-gradient-to-br from-gray-800 to-gray-900 p-8 border border-gray-700 h-96 flex items-center justify-center">
+                        <div class="text-center space-y-4">
+                            <div class="inline-block p-4 rounded-xl bg-[#5B4BFF] bg-opacity-20">
+                                <svg class="w-12 h-12 text-[#5B4BFF]" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4"></path>
+                                </svg>
+                            </div>
+                            <p class="text-2xl font-bold text-white">Scale Effortlessly</p>
+                            <p class="text-gray-400">Without hiring more staff</p>
+                        </div>
+                    </div>
+                    <div class="space-y-6">
+                        <h3 class="text-3xl md:text-4xl font-bold tracking-tight">Scale Your Business Without Growing Your Team</h3>
+                        <p class="text-lg text-gray-300 leading-relaxed font-medium">
+                            Achieve exponential growth without proportional increases in headcount. Our AI system scales with your business needs, handling increased outreach volume seamlessly while maintaining quality and personalization.
+                        </p>
+                        <ul class="space-y-4">
+                            <li class="flex items-start space-x-4">
+                                <svg class="w-6 h-6 text-[#00E5A8] flex-shrink-0 mt-1" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                                </svg>
+                                <span class="text-gray-300">Reduce hiring and training costs</span>
+                            </li>
+                            <li class="flex items-start space-x-4">
+                                <svg class="w-6 h-6 text-[#00E5A8] flex-shrink-0 mt-1" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                                </svg>
+                                <span class="text-gray-300">Maintain consistent quality at scale</span>
+                            </li>
+                            <li class="flex items-start space-x-4">
+                                <svg class="w-6 h-6 text-[#00E5A8] flex-shrink-0 mt-1" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                                </svg>
+                                <span class="text-gray-300">Improve profit margins significantly</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="relative py-20 md:py-32 px-8 md:px-16 overflow-hidden" style="background-image: url('https://images.unsplash.com/photo-1552664730-d307ca884978?w=1200&h=600&fit=crop'); background-size: cover; background-position: center;">
+        <div class="absolute inset-0 bg-gradient-to-r from-gray-900 via-gray-900 to-gray-900 opacity-75"></div>
+        
+        <div class="relative max-w-4xl mx-auto text-center space-y-8">
+            <h2 class="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight leading-tight">
+                Ready to Transform Your Tonopah Business?
+            </h2>
+            <p class="text-xl md:text-2xl text-gray-200 font-medium leading-relaxed">
+                Join hundreds of local businesses already experiencing rapid growth with our AI outreach system. Start generating more qualified leads today.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center pt-8">
+                <a href="https://dandowneyseo.com" class="btn-primary text-lg">
+                    <i class="fas fa-check mr-2"></i>Get Started Today
+                </a>
+                <button class="px-8 py-3 rounded-full border-2 border-white text-white font-semibold hover:bg-white hover:text-gray-900 transition-all duration-300">
+                    <i class="fas fa-calendar mr-2"></i>Schedule Demo
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-20 md:py-32 px-8 md:px-16 bg-gray-800 bg-opacity-50">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center space-y-4 mb-16 md:mb-20">
+                <h2 class="text-4xl md:text-5xl font-bold tracking-tight">Trusted by Tonopah Businesses</h2>
+                <p class="text-lg text-gray-300 max-w-3xl mx-auto font-medium">
+                    See how local businesses are transforming their growth with our AI outreach system.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Testimonial 1 -->
+                <div class="card-hover p-8 rounded-2xl bg-gray-800 border border-gray-700 space-y-6">
+                    <div class="flex items-center space-x-1">
+                        <svg class="w-5 h-5 text-[#00E5A8]" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                        </svg>
+                        <svg class="w-5 h-5 text-[#00E5A8]" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                        </svg>
+                        <svg class="w-5 h-5 text-[#00E5A8]" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                        </svg>
+                        <svg class="w-5 h-5 text-[#00E5A8]" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                        </svg>
+                        <svg class="w-5 h-5 text-[#00E5A8]" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                        </svg>
+                    </div>
+                    <p class="text-gray-300 leading-relaxed font-medium">
+                        "This AI system completely transformed how we approach lead generation. We've tripled our qualified leads in just three months without expanding our team. Absolutely game-changing for our business."
+                    </p>
+                    <div class="border-t border-gray-700 pt-4">
+                        <p class="font-bold text-white">Sarah Mitchell</p>
+                        <p class="text-sm text-gray-400">Owner, Mitchell's Home Services</p>
+                    </div>
+                </div>
+
+                <!-- Testimonial 2 -->
+                <div class="card-hover p-8 rounded-2xl bg-gray-800 border border-gray-700 space-y-6">
+                    <div class="flex items-center space-x-1">
+                        <svg class="w-5 h-5 text-[#00E5A8]" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                        </svg>
+                        <svg class="w-5 h-5 text-[#00E5A8]" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                        </svg>
+                        <svg class="w-5 h-5 text-[#00E5A8]" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                        </svg>
+                        <svg class="w-5 h-5 text-[#00E5A8]" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                        </svg>
+                        <svg class="w-5 h-5 text-[#00E5A8]" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                        </svg>
+                    </div>
+                    <p class="text-gray-300 leading-relaxed font-medium">
+                        "The personalization is incredible. Our response rates jumped from 2% to 9% almost immediately. The AI understands our market better than we expected. Highly recommended for any local business."
+                    </p>
+                    <div class="border-t border-gray-700 pt-4">
+                        <p class="font-bold text-white">James Rodriguez</p>
+                        <p class="text-sm text-gray-400">Manager, Desert Valley Consulting</p>
+                    </div>
+                </div>
+
+                <!-- Testimonial 3 -->
+                <div class="card-hover p-8 rounded-2xl bg-gray-800 border border-gray-700 space-y-6">
+                    <div class="flex items-center space-x-1">
+                        <svg class="w-5 h-5 text-[#00E5A8]" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                        </svg>
+                        <svg class="w-5 h-5 text-[#00E5A8]" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                        </svg>
+                        <svg class="w-5 h-5 text-[#00E5A8]" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                        </svg>
+                        <svg class="w-5 h-5 text-[#00E5A8]" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                        </svg>
+                        <svg class="w-5 h-5 text-[#00E5A8]" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                        </svg>
+                    </div>
+                    <p class="text-gray-300 leading-relaxed font-medium">
+                        "We were skeptical at first, but the results speak for themselves. Our sales team now has a steady stream of quality leads, and we've cut our customer acquisition costs in half. This is the future of business development."
+                    </p>
+                    <div class="border-t border-gray-700 pt-4">
+                        <p class="font-bold text-white">Patricia Chen</p>
+                        <p class="text-sm text-gray-400">Sales Director, Tech Solutions Inc</p>
+                    </div>
+                </div>
+
+                <!-- Testimonial 4 -->
+                <div class="card-hover p-8 rounded-2xl bg-gray-800 border border-gray-700 space-y-6">
+                    <div class="flex items-center space-x-1">
+                        <svg class="w-5 h-5 text-[#00E5A8]" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                        </svg>
+                        <svg class="w-5 h-5 text-[#00E5A8]" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                        </svg>
+                        <svg class="w-5 h-5 text-[#00E5A8]" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                        </svg>
+                        <svg class="w-5 h-5 text-[#00E5A8]" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                        </svg>
+                        <svg class="w-5 h-5 text-[#00E5A8]" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                        </svg>
+                    </div>
+                    <p class="text-gray-300 leading-relaxed font-medium">
+                        "Outstanding support and results. The team was helpful in setting up our campaigns, and the ROI has been exceptional. We're now using this for multiple business lines and can't imagine going back to the old way."
+                    </p>
+                    <div class="border-t border-gray-700 pt-4">
+                        <p class="font-bold text-white">Michael Torres</p>
+                        <p class="text-sm text-gray-400">Founder, Premium Realty Group</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section class="py-20 md:py-32 px-8 md:px-16">
+        <div class="max-w-4xl mx-auto space-y-8">
+            <div class="text-center space-y-4 mb-12">
+                <h2 class="text-4xl md:text-5xl font-bold tracking-tight">About Tonopah AI Outreach</h2>
+            </div>
+            
+            <div class="space-y-8">
+                <p class="text-lg text-gray-300 leading-relaxed font-medium">
+                    Founded in 2023, Tonopah AI Outreach emerged from a simple observation: local businesses in Tonopah, Nevada were struggling to scale their sales efforts without dramatically increasing their operational costs. Our team of AI specialists and business development experts came together with a mission to democratize access to enterprise-level outreach technology. We recognized that small and medium-sized businesses deserved the same cutting-edge tools that large corporations were using to dominate their markets. By leveraging the latest advancements in artificial intelligence, particularly Claude AI's sophisticated natural language processing capabilities, we created a system that could automate and personalize outreach at scale while maintaining authentic human connection.
+                </p>
+                
+                <p class="text-lg text-gray-300 leading-relaxed font-medium">
+                    At our core, we believe that intelligent automation should empower businesses, not replace human relationships. Our mission is to provide Tonopah and surrounding communities with an accessible, affordable, and effective solution for business growth. We're committed to transparency, continuous improvement, and delivering measurable results for every client. Our core values—innovation, integrity, and impact—guide every decision we make. We invest heavily in research and development to stay ahead of AI trends, maintain the highest ethical standards in our outreach practices, and measure success by the real-world growth our clients achieve. Whether you're a service provider, consultant, e-commerce business, or B2B company, we're dedicated to helping you build a sustainable pipeline of qualified leads and unlock your business's full potential.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="py-20 md:py-32 px-8 md:px-16 bg-gray-800 bg-opacity-50">
+        <div class="max-w-4xl mx-auto">
+            <div class="text-center space-y-4 mb-16 md:mb-20">
+                <h2 class="text-4xl md:text-5xl font-bold tracking-tight">Frequently Asked Questions</h2>
+                <p class="text-lg text-gray-300 max-w-2xl mx-auto font-medium">
+                    Get answers to common questions about our AI outreach system and how it can help your business grow.
+                </p>
+            </div>
+
+            <div class="space-y-4">
+                <!-- FAQ 1 -->
+                <div class="faq-item border border-gray-700 rounded-2xl overflow-hidden bg-gray-800">
+                    <button class="faq-question w-full px-8 py-6 flex items-center justify-between hover:bg-gray-700 transition-colors duration-300 cursor-pointer">
+                        <h3 class="text-lg font-bold text-white text-left">How does the AI outreach system work?</h3>
+                        <svg class="faq-icon w-6 h-6 text-[#5B4BFF]" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+                        </svg>
+                    </button>
+                    <div class="faq-answer hidden px-8 pb-6">
+                        <p class="text-gray-300 leading-relaxed">
+                            Our AI outreach system uses advanced machine learning powered by Claude AI to identify, research, and contact qualified prospects in your target market. The system analyzes your ideal customer profile, researches prospects using available data sources, personalizes outreach messages based on individual prospect characteristics and behaviors, and manages follow-up sequences automatically. The AI learns from engagement metrics to continuously optimize your campaigns, improving response rates and conversion results over time. Everything is tracked and reported through our comprehensive analytics dashboard so you can see exactly what's working.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- FAQ 2 -->
+                <div class="faq-item border border-gray-700 rounded-2xl overflow-hidden bg-gray-800">
+                    <button class="faq-question w-full px-8 py-6 flex items-center justify-between hover:bg-gray-700 transition-colors duration-300 cursor-pointer">
+                        <h3 class="text-lg font-bold text-white text-left">What types of businesses benefit most from this system?</h3>
+                        <svg class="faq-icon w-6 h-6 text-[#5B4BFF]" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+                        </svg>
+                    </button>
+                    <div class="faq-answer hidden px-8 pb-6">
+                        <p class="text-gray-300 leading-relaxed">
+                            Our system is highly versatile and works exceptionally well for service-based businesses (consulting, digital marketing, accounting, legal), B2B companies (software, solutions, professional services), e-commerce and retail businesses looking to expand their customer base, home service providers (HVAC, plumbing, electrical, landscaping), real estate professionals and agencies, and financial services firms. Essentially, any business that benefits from a consistent pipeline of qualified leads can leverage our AI outreach system. We've successfully implemented solutions for businesses ranging from solopreneurs to larger regional companies across Tonopah and surrounding Nevada communities.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- FAQ 3 -->
+                <div class="faq-item border border-gray-700 rounded-2xl overflow-hidden bg-gray-800">
+                    <button class="faq-question w-full px-8 py-6 flex items-center justify-between hover:bg-gray-700 transition-colors duration-300 cursor-pointer">
+                        <h3 class="text-lg font-bold text-white text-left">How long does it take to see results?</h3>
+                        <svg class="faq-icon w-6 h-6 text-[#5B4BFF]" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+                        </svg>
+                    </button>
+                    <div class="faq-answer hidden px-8 pb-6">
+                        <p class="text-gray-300 leading-relaxed">
+                            Most clients see initial results within the first 1-2 weeks of launching their campaigns. You'll notice increased engagement and responses as the system begins reaching out to prospects. Meaningful conversion results typically appear within 4-6 weeks as your sales team has time to engage with the leads and move them through your sales pipeline. The real magic happens after 8-12 weeks when the AI has gathered enough data to optimize your campaigns significantly. We recommend giving the system at least 30 days to demonstrate its value before making any major adjustments. That said, every business is different, and factors like your sales cycle length, industry, and conversion process will influence your specific timeline.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- FAQ 4 -->
+                <div class="faq-item border border-gray-700 rounded-2xl overflow-hidden bg-gray-800">
+                    <button class="faq-question w-full px-8 py-6 flex items-center justify-between hover:bg-gray-700 transition-colors duration-300 cursor-pointer">
+                        <h3 class="text-lg font-bold text-white text-left">Is the outreach compliant with regulations and anti-spam laws?</h3>
+                        <svg class="faq-icon w-6 h-6 text-[#5B4BFF]" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+                        </svg>
+                    </button>
+                    <div class="faq-answer hidden px-8 pb-6">
+                        <p class="text-gray-300 leading-relaxed">
+                            Absolutely. Compliance is paramount to our operation. Our system is designed to comply with all applicable regulations including CAN-SPAM Act, GDPR, CCPA, and other relevant data protection laws. We maintain strict standards for email frequency, include proper unsubscribe mechanisms in all communications, respect do-not-contact lists and opt-out requests, and use only legitimate contact information obtained through lawful means. Our AI is trained to recognize and respect consent preferences and regulatory requirements. We also provide guidance to all clients on best practices for ethical outreach and ensure that our campaigns maintain high deliverability standards while staying within all legal boundaries. Your reputation and our integrity are both protected through rigorous compliance practices.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- FAQ 5 -->
+                <div class="faq-item border border-gray-700 rounded-2xl overflow-hidden bg-gray-800">
+                    <button class="faq-question w-full px-8 py-6 flex items-center justify-between hover:bg-gray-700 transition-colors duration-300 cursor-pointer">
+                        <h3 class="text-lg font-bold text-white text-left">What kind of support and training do you provide?</h3>
+                        <svg class="faq-icon w-6 h-6 text-[#5B4BFF]" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+                        </svg>
+                    </button>
+                    <div class="faq-answer hidden px-8 pb-6">
+                        <p class="text-gray-300 leading-relaxed">
+                            We provide comprehensive support to ensure your success. This includes initial setup and onboarding assistance to get your campaigns running quickly, detailed training on using our platform and interpreting analytics, ongoing customer support via email and phone during business hours, regular strategy calls to optimize your campaigns based on performance data, detailed documentation and video tutorials for self-service learning, and access to our knowledge base with best practices and case studies. We believe your success is our success, so we're invested in helping you achieve the best possible results. Our team is responsive and dedicated to answering questions and providing guidance throughout your journey with us.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="border-t border-gray-800 bg-gray-900 py-16 md:py-20 px-8 md:px-16">
+        <div class="max-w-7xl mx-auto">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-12 md:gap-16 mb-12">
+                <!-- Brand -->
+                <div class="space-y-4">
+                    <div class="flex items-center space-x-2">
+                        <div class="w-10 h-10 rounded-lg bg-gradient-to-br from-[#5B4BFF] to-[#00E5A8] flex items-center justify-center">
+                            <i class="fas fa-rocket text-white text-lg"></i>
+                        </div>
+                        <span class="text-xl font-bold text-white">Tonopah AI</span>
+                    </div>
+                    <p class="text-gray-400 text-sm leading-relaxed">
+                        Intelligent AI outreach system helping Tonopah businesses expand their client pipeline and achieve sustainable growth.
+                    </p>
+                </div>
+
+                <!-- Product -->
+                <div class="space-y-4">
+                    <h4 class="font-bold text-white text-sm uppercase tracking-wider">Product</h4>
+                    <ul class="space-y-3">
+                        <li><a href="#features" class="text-gray-400 hover:text-white transition-colors duration-300 text-sm">Features</a></li>
+                        <li><a href="#benefits" class="text-gray-400 hover:text-white transition-colors duration-300 text-sm">Benefits</a></li>
+                        <li><a href="#testimonials" class="text-gray-400 hover:text-white transition-colors duration-300 text-sm">Testimonials</a></li>
+                        <li><a href="#faq" class="text-gray-400 hover:text-white transition-colors duration-300 text-sm">FAQ</a></li>
+                    </ul>
+                </div>
+
+                <!-- Company -->
+                <div class="space-y-4">
+                    <h4 class="font-bold text-white text-sm uppercase tracking-wider">Company</h4>
+                    <ul class="space-y-3">
+                        <li><a href="https://dandowneyseo.com" class="text-gray-400 hover:text-white transition-colors duration-300 text-sm">Website</a></li>
+                        <li><a href="mailto:dandowneyseo@gmail.com" class="text-gray-400 hover:text-white transition-colors duration-300 text-sm">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact -->
+                <div class="space-y-4">
+                    <h4 class="font-bold text-white text-sm uppercase tracking-wider">Get In Touch</h4>
+                    <ul class="space-y-3">
+                        <li>
+                            <a href="mailto:dandowneyseo@gmail.com" class="text-gray-400 hover:text-white transition-colors duration-300 text-sm flex items-center space-x-2">
+                                <i class="fas fa-envelope w-4"></i>
+                                <span>dandowneyseo@gmail.com</span>
+                            </a>
+                        </li>
+                        <li class="flex space-x-4 pt-2">
+                            <a href="#" class="text-gray-400 hover:text-[#5B4BFF] transition-colors duration-300">
+                                <i class="fab fa-facebook text-lg"></i>
+                            </a>
+                            <a href="#" class="text-gray-400 hover:text-[#5B4BFF] transition-colors duration-300">
+                                <i class="fab fa-twitter text-lg"></i>
+                            </a>
+                            <a href="#" class="text-gray-400 hover:text-[#5B4BFF] transition-colors duration-300">
+                                <i class="fab fa-linkedin text-lg"></i>
+                            </a>
+                            <a href="#" class="text-gray-400 hover:text-[#5B4BFF] transition-colors duration-300">
+                                <i class="fab fa-instagram text-lg"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Divider -->
+            <div class="border-t border-gray-800 pt-8">
+                <p class="text-gray-500 text-sm text-center">
+                    &copy; 2025 Tonopah AI Outreach System. All rights reserved.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Mobile Menu Toggle
+            const mobileMenuButton = document.querySelector('.mobile-menu-button');
+            const mobileMenu = document.querySelector('.mobile-menu');
+            
+            if (mobileMenuButton && mobileMenu) {
+                mobileMenuButton.addEventListener('click', () => {
+                    mobileMenu.classList.toggle('hidden');
+                    const icon = mobileMenuButton.querySelector('i');
+                    if (icon) {
+                        icon.classList.toggle('fa-bars');
+                        icon.classList.toggle('fa-times');
+                    }
+                });
+
+                const mobileMenuLinks = mobileMenu.querySelectorAll('a');
+                mobileMenuLinks.forEach(link => {
+                    link.addEventListener('click', () => {
+                        mobileMenu.classList.add('hidden');
+                        const icon = mobileMenuButton.querySelector('i');
+                        if (icon) {
+                            icon.classList.remove('fa-times');
+                            icon.classList.add('fa-bars');
+                        }
+                    });
+                });
+            }
+
+            // FAQ Accordion Toggle
+            const faqItems = document.querySelectorAll('.faq-item');
+            faqItems.forEach(item => {
+                const question = item.querySelector('.faq-question');
+                if (question) {
+                    question.addEventListener('click', () => {
+                        const answer = item.querySelector('.faq-answer');
+                        const isOpen = !answer.classList.contains('hidden');
+                        
+                        // Close all other FAQ items
+                        faqItems.forEach(otherItem => {
+                            if (otherItem !== item) {
+                                otherItem.querySelector('.faq-answer')?.classList.add('hidden');
+                                otherItem.querySelector('.faq-icon')?.classList.remove('rotate-180');
+                            }
+                        });
+                        
+                        // Toggle current item
+                        answer?.classList.toggle('hidden');
+                        item.querySelector('.faq-icon')?.classList.toggle('rotate-180');
+                    });
+                }
+            });
+
+            // Smooth Scroll for Anchor Links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function(e) {
+                    const href = this.getAttribute('href');
+                    if (href !== '#' && href.length > 1) {
+                        e.preventDefault();
+                        const target = document.querySelector(href);
+                        if (target) {
+                            target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                        }
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
